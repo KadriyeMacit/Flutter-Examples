@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "951414809054",
+    "firebase_url": "https://flutter-67500.firebaseio.com",
+    "project_id": "flutter-67500",
+    "storage_bucket": "flutter-67500.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951414809054:android:a874eaa65cd992c049fd4f",
+        "android_client_info": {
+          "package_name": "com.example.input_islemler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951414809054-m4badp0nf216bfoie15tr0o6d522em84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy5k5Zl9qSW7Fgrry2YiG2Hn5Ilfdb5Ns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951414809054-m4badp0nf216bfoie15tr0o6d522em84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
