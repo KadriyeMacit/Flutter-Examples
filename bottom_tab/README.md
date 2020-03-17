@@ -3,6 +3,8 @@ Merhabalar,
 
 Projede, Fancy Bottom Navigation kullanılmıştır. Bunun için eklenmesi kütüphane aşağıdaki gibidir.
 
+fancy_bottom_navigation: ^0.3.2
+
 
 Uygulamanın görünümü şu şekildedir;
 
