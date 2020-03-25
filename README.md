@@ -10,5 +10,7 @@
  - Konuştuğumuz kelimelerin yazıya döküldüğü bir uygulama
  - Kamera ve galeri 
  - Firebase veritabanı işlemleri
+ - Yazı stilleri (Text özellikleri)
+ - Fancy Bottom Navigation
  
  konularının kaynak kodlarının olduğu bir depodur.
