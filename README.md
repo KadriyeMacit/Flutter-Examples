@@ -12,5 +12,6 @@
  - Firebase veritabanı işlemleri
  - Yazı stilleri (Text özellikleri)
  - Fancy Bottom Navigation
+ - Switch ile Shared Preference kullanımı
  
  konularının kaynak kodlarının olduğu bir depodur.
