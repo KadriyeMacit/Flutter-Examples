@@ -13,5 +13,6 @@
  - Yazı stilleri (Text özellikleri)
  - Fancy Bottom Navigation
  - Switch ile Shared Preference kullanımı
+ - Zamanlı bildirim gönderme
  
  konularının kaynak kodlarının olduğu bir depodur.
