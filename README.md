@@ -12,7 +12,8 @@
  - Firebase veritabanı işlemleri
  - Yazı stilleri (Text özellikleri)
  - Fancy Bottom Navigation
- - Switch ile Shared Preference kullanımı
+ - Switch ile Shared Preferences kullanımı
  - Zamanlı bildirim gönderme
+ - Alert Dialog ile birlikte Checkbox kullanımı aynı zamanda Shared Preferences de destekli
  
  konularının kaynak kodlarının olduğu bir depodur.
