@@ -16,5 +16,6 @@
  - Zamanlı bildirim gönderme
  - Bluetooth kullanımı
  - Alert Dialog ile birlikte Checkbox kullanımı aynı zamanda Shared Preferences de destekli
+ - Flare ile animasyon
  
  konularının kaynak kodlarının olduğu bir depodur.
