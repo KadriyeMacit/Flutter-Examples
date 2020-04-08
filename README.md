@@ -18,5 +18,6 @@
  - Alert Dialog ile birlikte Checkbox kullanımı aynı zamanda Shared Preferences de destekli
  - Flare ile animasyon
  - Ripple Efekti
+ - Draggable FAB 
  
  konularının kaynak kodlarının olduğu bir depodur.
