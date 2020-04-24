@@ -1,6 +1,6 @@
 # Flutter Examples
 
- Hello World youtube kanalında anlattığım Flutter örneklerinin kaynak kodları bulunmaktadır.
+ Hello World youtube kanalında anlattığım ve kendi deneme Flutter örneklerinin kaynak kodları bulunmaktadır.
  
  - Buton türleri
  - Resim türleri
@@ -23,5 +23,6 @@
  - Simple animation kütüphanesi ile uçuşan balonlar
  - Flame örnekleri
  - Overflow | Taşma hatalarına çözüm
+ - Rastgele resim gösterme algoritması
  
  konularının kaynak kodlarının olduğu bir depodur.
