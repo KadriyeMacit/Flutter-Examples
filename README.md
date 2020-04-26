@@ -24,5 +24,8 @@
  - Flame örnekleri
  - Overflow | Taşma hatalarına çözüm
  - Rastgele resim gösterme algoritması
+ - Geri sayım renkli
+ - Süreyi kontrol etme
+ - Telefondan geri tuşunun kontrolü
  
  konularının kaynak kodlarının olduğu bir depodur.
