@@ -27,5 +27,6 @@
  - Geri sayım renkli
  - Süreyi kontrol etme
  - Telefondan geri tuşunun kontrolü
+ - Gesture Detector örneği
  
  konularının kaynak kodlarının olduğu bir depodur.
