@@ -28,5 +28,6 @@
  - Süreyi kontrol etme
  - Telefondan geri tuşunun kontrolü
  - Gesture Detector örneği
+ - Direk uygulamayı kapatma özelliği
  
  konularının kaynak kodlarının olduğu bir depodur.
