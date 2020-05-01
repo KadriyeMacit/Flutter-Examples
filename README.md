@@ -29,5 +29,6 @@
  - Telefondan geri tuşunun kontrolü
  - Gesture Detector örneği
  - Direk uygulamayı kapatma özelliği
+ - Row | Center | Column | Stack | Center kullanımı 
  
  konularının kaynak kodlarının olduğu bir depodur.
