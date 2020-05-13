@@ -30,5 +30,6 @@
  - Gesture Detector örneği
  - Direk uygulamayı kapatma özelliği
  - Row | Center | Column | Stack | Center kullanımı 
+ - Inkwell ve InkResponse kullanımı
  
  konularının kaynak kodlarının olduğu bir depodur.
