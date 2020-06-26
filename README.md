@@ -31,5 +31,6 @@
  - Direk uygulamayı kapatma özelliği
  - Row | Center | Column | Stack | Center kullanımı 
  - Inkwell ve InkResponse kullanımı
+ * Carousel_slider örneği
  
  konularının kaynak kodlarının olduğu bir depodur.
