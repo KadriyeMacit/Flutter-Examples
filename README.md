@@ -32,5 +32,6 @@
  - Row | Center | Column | Stack | Center kullanımı 
  - Inkwell ve InkResponse kullanımı
  - Carousel_slider örneği
+ - Json dosya okuma
  
  konularının kaynak kodlarının olduğu bir depodur.
