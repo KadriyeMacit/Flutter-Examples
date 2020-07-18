@@ -1,0 +1,17 @@
+{
+     "example_data" : [
+       {
+      "name" : "Kadriye Macit" ,
+       "age" : "24",
+       "zodiac sign" : "Gemini",
+       "book" : "As You Like It"
+    },
+
+   {
+    "name" : "Hello World" ,
+    "age" : "1",
+    "zodiac sign" : "Leo",
+    "book" : "Crime and Punishment"
+  }
+       ]
+}
