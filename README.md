@@ -40,5 +40,6 @@
  - Line grafik
  - WebRTC örneği
  - ListView'de search bar özelliği
+ - Wrap widget örneği
  
  konularının kaynak kodlarının olduğu bir depodur.
