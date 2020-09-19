@@ -41,5 +41,7 @@
  - WebRTC örneği
  - ListView'de search bar özelliği
  - Wrap widget örneği
+ - Transform rotate, döndürme örneği
+ - Opacity, görünürlük(yok olma) örneği
  
  konularının kaynak kodlarının olduğu bir depodur.
