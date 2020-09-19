@@ -43,5 +43,6 @@
  - Wrap widget örneği
  - Transform rotate, döndürme örneği
  - Opacity, görünürlük(yok olma) örneği
+ - Zamanlayıcı ile yok olma örneği
  
  konularının kaynak kodlarının olduğu bir depodur.
