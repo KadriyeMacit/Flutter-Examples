@@ -44,5 +44,6 @@
  - Transform rotate, döndürme örneği
  - Opacity, görünürlük(yok olma) örneği
  - Zamanlayıcı ile yok olma örneği
+ - Scratcher örneği
  
  konularının kaynak kodlarının olduğu bir depodur.
