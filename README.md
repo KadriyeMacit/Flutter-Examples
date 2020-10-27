@@ -45,5 +45,6 @@
  - Opacity, görünürlük(yok olma) örneği
  - Zamanlayıcı ile yok olma örneği
  - Scratcher örneği
+ - Telefonla Arama ekranına ve mail gönderme ekranına yönlendirme (url_launcher) örneği
  
  konularının kaynak kodlarının olduğu bir depodur.
