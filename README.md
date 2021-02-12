@@ -46,5 +46,6 @@
  - Zamanlayıcı ile yok olma örneği
  - Scratcher örneği
  - Telefonla Arama ekranına ve mail gönderme ekranına yönlendirme (url_launcher) örneği
+ - Firebase Auth işlemleri
  
  konularının kaynak kodlarının olduğu bir depodur.
