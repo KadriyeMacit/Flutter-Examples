@@ -1,4 +1,4 @@
-import 'package:firebase_ornek/service/auth.dart';
+import 'package:firebase_ornek/service/auth_service.dart';
 import 'package:firebase_ornek/pages/home.dart';
 import 'package:firebase_ornek/pages/register.dart';
 import 'package:flutter/material.dart';
@@ -25,10 +25,14 @@ class _LoginPageState extends State<LoginPage> {
           height: size.height * .5,
           width: size.width * .85,
           decoration: BoxDecoration(
-            color: Colors.blue.withOpacity(.75),
-            borderRadius: BorderRadius.all(Radius.circular(20)),
-            boxShadow: [BoxShadow(color:Colors.grey.withOpacity(.75), blurRadius: 10, spreadRadius: 2)]
-          ),
+              color: Colors.blue.withOpacity(.75),
+              borderRadius: BorderRadius.all(Radius.circular(20)),
+              boxShadow: [
+                BoxShadow(
+                    color: Colors.grey.withOpacity(.75),
+                    blurRadius: 10,
+                    spreadRadius: 2)
+              ]),
           child: Padding(
             padding: const EdgeInsets.all(10.0),
             child: Center(
@@ -38,8 +42,8 @@ class _LoginPageState extends State<LoginPage> {
                   TextField(
                       controller: _emailController,
                       style: TextStyle(
-                          color: Colors.white,
-                         ),
+                        color: Colors.white,
+                      ),
                       cursorColor: Colors.white,
                       keyboardType: TextInputType.emailAddress,
                       decoration: InputDecoration(
@@ -49,8 +53,7 @@ class _LoginPageState extends State<LoginPage> {
                         ),
                         hintText: 'E-Mail',
                         prefixText: ' ',
-                        hintStyle: TextStyle(
-                            color: Colors.white),
+                        hintStyle: TextStyle(color: Colors.white),
                         focusColor: Colors.white,
                         focusedBorder: UnderlineInputBorder(
                             borderSide: BorderSide(
@@ -66,8 +69,8 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                   TextField(
                       style: TextStyle(
-                          color: Colors.white,
-                          ),
+                        color: Colors.white,
+                      ),
                       cursorColor: Colors.white,
                       controller: _passwordController,
                       obscureText: true,
@@ -79,7 +82,8 @@ class _LoginPageState extends State<LoginPage> {
                         hintText: 'Parola',
                         prefixText: ' ',
                         hintStyle: TextStyle(
-                            color: Colors.white,),
+                          color: Colors.white,
+                        ),
                         focusColor: Colors.white,
                         focusedBorder: UnderlineInputBorder(
                             borderSide: BorderSide(
@@ -94,9 +98,15 @@ class _LoginPageState extends State<LoginPage> {
                     height: size.height * 0.08,
                   ),
                   InkWell(
-                    onTap: (){
-                      _authService.signIn(_emailController.text, _passwordController.text).then((value) {
-                        return Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage()));
+                    onTap: () {
+                      _authService
+                          .signIn(
+                              _emailController.text, _passwordController.text)
+                          .then((value) {
+                        return Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => HomePage()));
                       });
                     },
                     child: Container(
@@ -111,9 +121,9 @@ class _LoginPageState extends State<LoginPage> {
                             child: Text(
                           "Giriş yap",
                           style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 20,
-                              ),
+                            color: Colors.white,
+                            fontSize: 20,
+                          ),
                         )),
                       ),
                     ),
@@ -122,15 +132,29 @@ class _LoginPageState extends State<LoginPage> {
                     height: size.height * 0.02,
                   ),
                   InkWell(
-                    onTap: (){
-                          Navigator.push(context, MaterialPageRoute(builder: (context) => RegisterPage()));
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => RegisterPage()));
                     },
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        Container(height: 1, width: 75, color: Colors.white,),
-                        Text("Kayıt ol", style: TextStyle(color: Colors.white),),
-                        Container(height: 1, width: 75, color: Colors.white,),
+                        Container(
+                          height: 1,
+                          width: 75,
+                          color: Colors.white,
+                        ),
+                        Text(
+                          "Kayıt ol",
+                          style: TextStyle(color: Colors.white),
+                        ),
+                        Container(
+                          height: 1,
+                          width: 75,
+                          color: Colors.white,
+                        ),
                       ],
                     ),
                   )

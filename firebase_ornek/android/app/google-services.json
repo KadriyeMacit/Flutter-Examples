@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "134858420492",
+    "firebase_url": "https://fir-ornek-914fe.firebaseio.com",
+    "project_id": "fir-ornek-914fe",
+    "storage_bucket": "fir-ornek-914fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134858420492:android:f42cc381dac4b927075929",
+        "android_client_info": {
+          "package_name": "com.kadriye.firebase_ornek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134858420492-3t29njmtltrgae2jsj5g2vo6desgpc9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAY5P6HrtKpPAtCthdo6xC9ts2rTL1J9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134858420492-3t29njmtltrgae2jsj5g2vo6desgpc9f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "134858420492-km0mnkraagu51cfk18ksjv4fogtu3qns.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kadriye.firebaseOrnek"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
