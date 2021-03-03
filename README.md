@@ -47,5 +47,6 @@
  - Scratcher örneği
  - Telefonla Arama ekranına ve mail gönderme ekranına yönlendirme (url_launcher) örneği
  - Firebase Auth, Storage ve Cloud Firestore işlemleri
+ - Platform channel ios ve android kodları (swift & kotlin)
  
  konularının kaynak kodlarının olduğu bir depodur.
