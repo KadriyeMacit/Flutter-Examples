@@ -49,5 +49,6 @@
  - Firebase Auth, Storage ve Cloud Firestore işlemleri
  - Platform channel ios ve android kodları (swift & kotlin)
  - PDF oluşturma
+ - Resim kırpma özelliği
  
  konularının kaynak kodlarının olduğu bir depodur.
