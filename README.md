@@ -50,5 +50,6 @@
  - Platform channel ios ve android kodları (swift & kotlin)
  - PDF oluşturma
  - Resim kırpma özelliği
+ - Snapping Sheet örneği
  
  konularının kaynak kodlarının olduğu bir depodur.
