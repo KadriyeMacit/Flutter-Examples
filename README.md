@@ -51,5 +51,6 @@
  - PDF oluşturma
  - Resim kırpma özelliği
  - Snapping Sheet örneği
+ - GetX ile animasyonlu Floating Action Button
  
  konularının kaynak kodlarının olduğu bir depodur.
