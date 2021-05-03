@@ -52,5 +52,7 @@
  - Resim kırpma özelliği
  - Snapping Sheet örneği
  - GetX ile animasyonlu Floating Action Button
+ - GeX ile animasyonlu TabBar 
+ - Klasik TabBar
  
  konularının kaynak kodlarının olduğu bir depodur.
