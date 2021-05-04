@@ -54,5 +54,6 @@
  - GetX ile animasyonlu Floating Action Button
  - GeX ile animasyonlu TabBar 
  - Klasik TabBar
+ - Güncel konum
  
  konularının kaynak kodlarının olduğu bir depodur.
