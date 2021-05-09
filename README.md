@@ -55,5 +55,6 @@
  - GeX ile animasyonlu TabBar 
  - Klasik TabBar
  - Güncel konum
+ - Passcode Lock Screen
  
  konularının kaynak kodlarının olduğu bir depodur.
