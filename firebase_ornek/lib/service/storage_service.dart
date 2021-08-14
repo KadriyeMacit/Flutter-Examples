@@ -12,9 +12,9 @@ class StorageService {
             "${DateTime.now().millisecondsSinceEpoch}.${file.path.split('.').last}")
         .putFile(file);
 
-    uploadTask.events.listen((event) {});
+    uploadTask.snapshotEvents.listen((event) {});
 
-    var storageRef = await uploadTask.onComplete;
+    var storageRef = await uploadTask;
 
     return await storageRef.ref.getDownloadURL();
   }

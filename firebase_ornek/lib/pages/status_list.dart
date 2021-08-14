@@ -14,15 +14,15 @@ class _StatusListPageState extends State<StatusListPage> {
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
 
-    return StreamBuilder(
+    return StreamBuilder<QuerySnapshot>(
       stream: _statusService.getStatus(),
       builder: (context, snaphot) {
         return !snaphot.hasData
             ? CircularProgressIndicator()
             : ListView.builder(
-                itemCount: snaphot.data.documents.length,
+                itemCount: snaphot.data!.docs.length,
                 itemBuilder: (context, index) {
-                  DocumentSnapshot mypost = snaphot.data.documents[index];
+                  DocumentSnapshot mypost = snaphot.data!.docs[index];
 
                   Future<void> _showChoiseDialog(BuildContext context) {
                     return showDialog(
@@ -102,9 +102,7 @@ class _StatusListPageState extends State<StatusListPage> {
                               ),
                               Center(
                                   child: CircleAvatar(
-                                backgroundImage: mypost['image'] == ""
-                                    ? AssetImage("assets/images/siyah.png")
-                                    : NetworkImage(mypost['image']),
+                                backgroundImage: NetworkImage(mypost['image']),
                                 radius: size.height * 0.08,
                               )),
                             ],

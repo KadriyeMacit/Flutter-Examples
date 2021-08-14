@@ -10,14 +10,10 @@ class StatusService {
   String mediaUrl = '';
 
   //status eklemek için
-  Future<void> addStatus(String status, PickedFile pickedFile) async {
+  Future<Status> addStatus(String status, XFile pickedFile) async {
     var ref = _firestore.collection("Status");
 
-    if (pickedFile == null) {
-      mediaUrl = '';
-    } else {
-      mediaUrl = await _storageService.uploadMedia(File(pickedFile.path));
-    }
+    mediaUrl = await _storageService.uploadMedia(File(pickedFile.path));
 
     var documentRef = await ref.add({'status': status, 'image': mediaUrl});
 

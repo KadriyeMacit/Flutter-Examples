@@ -5,7 +5,7 @@ class Status {
   String status;
   String image;
 
-  Status({this.id, this.status, this.image});
+  Status({required this.id, required this.status, required this.image});
 
   factory Status.fromSnapshot(DocumentSnapshot snapshot) {
     return Status(

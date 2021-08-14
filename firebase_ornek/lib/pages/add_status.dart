@@ -16,13 +16,13 @@ class _AddStatusPageState extends State<AddStatusPage> {
 
   final ImagePicker _pickerImage = ImagePicker();
   dynamic _pickImage;
-  PickedFile profileImage;
+  var profileImage;
 
   Widget imagePlace() {
     double height = MediaQuery.of(context).size.height;
     if (profileImage != null) {
       return CircleAvatar(
-          backgroundImage: FileImage(File(profileImage.path)),
+          backgroundImage: FileImage(File(profileImage!.path)),
           radius: height * 0.08);
     } else {
       if (_pickImage != null) {
@@ -51,7 +51,7 @@ class _AddStatusPageState extends State<AddStatusPage> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
-                height: size.height * .3,
+                height: size.height * .4,
                 decoration: BoxDecoration(
                     color: Colors.white,
                     border: Border.all(color: Colors.blue, width: 2),
@@ -118,7 +118,7 @@ class _AddStatusPageState extends State<AddStatusPage> {
               child: InkWell(
                 onTap: () {
                   _statusService
-                      .addStatus(statusController.text, profileImage)
+                      .addStatus(statusController.text, profileImage ?? '')
                       .then((value) {
                     Fluttertoast.showToast(
                         msg: "Durum eklendi!",
@@ -155,16 +155,16 @@ class _AddStatusPageState extends State<AddStatusPage> {
         ));
   }
 
-  void _onImageButtonPressed(ImageSource source, {BuildContext context}) async {
+  void _onImageButtonPressed(ImageSource source,
+      {required BuildContext context}) async {
     try {
-      final pickedFile = await _pickerImage.getImage(
-        source: source,
-      );
+      final pickedFile = await _pickerImage.pickImage(source: source);
       setState(() {
-        profileImage = pickedFile;
+        profileImage = pickedFile!;
         print("dosyaya geldim: $profileImage");
         if (profileImage != null) {}
       });
+      print('aaa');
     } catch (e) {
       setState(() {
         _pickImage = e;
