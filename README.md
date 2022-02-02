@@ -58,6 +58,8 @@
  - Passcode Lock Screen
  - WebView örneği
  - Mouse Region
- - Instagram navigation bar örneği 
+ - Instagram navigation bar örneği
+ - Unit/Widget test örnekleri
+ - Widget list örnekleri
  
  konularının kaynak kodlarının olduğu bir depodur.
