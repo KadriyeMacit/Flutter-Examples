@@ -61,5 +61,6 @@
  - Instagram navigation bar örneği
  - Unit/Widget test örnekleri
  - Widget list örnekleri
+ - draggable_home kütüphanesinin çizgili görünümünün düzeltilmiş hali
  
  konularının kaynak kodlarının olduğu bir depodur.
