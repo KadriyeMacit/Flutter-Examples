@@ -62,5 +62,6 @@
  - Unit/Widget test örnekleri
  - Widget list örnekleri
  - draggable_home kütüphanesinin çizgili görünümünün düzeltilmiş hali
+ - Verification screens (pinput lib)
  
  konularının kaynak kodlarının olduğu bir depodur.
