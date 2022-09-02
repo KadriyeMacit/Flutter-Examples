@@ -64,5 +64,6 @@
  - draggable_home kütüphanesinin çizgili görünümünün düzeltilmiş hali
  - Verification screens (pinput lib)
  - Sticky headers 
+ - equatable kütüphanesi
  
  konularının kaynak kodlarının olduğu bir depodur.
