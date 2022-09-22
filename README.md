@@ -65,5 +65,6 @@
  - Verification screens (pinput lib)
  - Sticky headers 
  - equatable kütüphanesi
+ - dynamic island (iphone 14 etc.)
  
  konularının kaynak kodlarının olduğu bir depodur.
