@@ -66,5 +66,6 @@
  - Sticky headers 
  - equatable kütüphanesi
  - dynamic island (iphone 14 etc.)
+ - hooks örnekleri
  
  konularının kaynak kodlarının olduğu bir depodur.
